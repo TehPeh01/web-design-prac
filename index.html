@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <section>
+            <div class="intro">
+                <div class="intro-inner">
+                    <div class="intro-text">
+                        <h2 id="welcome">Hi.</h2>
+                        <p>I am a recent Computer Science graduate at UNC Charlotte with a passion for software engineering and game development. I have hands-on experience with full-stack development in VS Code and enjoy creating interactive experiences in Unity. In my free time, I explore digital art using Procreate, blending creativity with technology.</p>
+                    </div>
+                    <div class="intro-img">
+                        <img src="#">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--
+        <svg class="svg-curve"></svg>
+        -->
+
+        <section>
+            <div class="service-container">
+                <div class="service-box">
+                    <div class="service-content">
+                        <div class="columns">
+                            <div class="column">
+                                <div class="service">
+                                    <img src="/assets/img/programming.png">
+                                    <h4 class="service-title">Full-Stack</h3>
+                                    <p>Frontend and Backend Development</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="service">
+                                    <img src="/assets/img/games.png">
+                                    <h4 class="service-title">Game Development</h3>
+                                    <p>Develop 2D and 3D Games</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="service">
+                                    <img src="/assets/img/art-studies.png">
+                                    <h4 class="service-title">Digital Art</h3>
+                                    <p>Animating and Paint</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="projects">
+                <h3>My Work</h3>
+                <ul class="filter-list">   
+                    <li class="filter-item">
+                        <button class="active" data-filter-btn>All</button>
+                    </li>
+        
+                    <li class="filter-item">
+                        <button data-filter-btn>Web Development</button>
+                    </li>
+        
+                    <li class="filter-item">
+                        <button data-filter-btn>Game Development</button>
+                    </li>
+        
+                    <li class="filter-item">
+                        <button data-filter-btn>Digital Art</button>
+                    </li>    
+                </ul>
+        
+                <div class="filter-select-box">    
+                    <button class="filter-select" data-select>    
+                        <div class="select-value" data-selecct-value>Select category</div>
+            
+                        <div class="select-icon">
+                            <ion-icon name="chevron-down"></ion-icon>
+                        </div>    
+                    </button>
+        
+                    <ul class="select-list">    
+                        <li class="select-item">
+                            <button data-select-item>All</button>
+                        </li>
+            
+                        <li class="select-item">
+                            <button data-select-item>Web Development</button>
+                        </li>
+            
+                        <li class="select-item">
+                            <button data-select-item>Game Development</button>
+                        </li>
+            
+                        <li class="select-item">
+                            <button data-select-item>Digital Art</button>
+                        </li>    
+                    </ul>   
+                </div>
+        
+                <ul class="project-list">    
+                    <li class="project-item active" data-filter-item data-category="web development">
+                        <a href="#">
+                            <figure class="project-img">
+                            <div class="project-item-icon-box">
+                                <ion-icon name="eye-outline"></ion-icon>
+                            </div>
+            
+                            <img src="/my_website/assets/images/david-pfp.png" alt="web dev" loading="lazy">
+                            </figure>
+            
+                            <h3 class="project-title">Web Dev</h3>
+            
+                            <p class="project-category">Web development</p>
+            
+                        </a>
+                    </li>
+        
+                    <li class="project-item active" data-filter-item data-category="game development">
+                        <a href="#">
+                            <figure class="project-img">
+                            <div class="project-item-icon-box">
+                                <ion-icon name="eye-outline"></ion-icon>
+                            </div>
+            
+                            <img src="#" alt="game dev" loading="lazy">
+                            </figure>
+            
+                            <h3 class="project-title">Game Dev</h3>
+            
+                            <p class="project-category">Game development</p>
+            
+                        </a>
+                    </li>
+        
+                    <li class="project-item active" data-filter-item data-category="digital art">
+                        <a href="#">
+                            <figure class="project-img">
+                            <div class="project-item-icon-box">
+                                <ion-icon name="eye-outline"></ion-icon>
+                            </div>
+            
+                            <img src="#" alt="art" loading="lazy">
+                            </figure>
+            
+                            <h3 class="project-title">Art</h3>
+            
+                            <p class="project-category">Digital Art</p>       
+                        </a>
+                    </li>
+                </ul>    
+            </div>
+    
+            <div class="footer">
+                <div class="footer-inner">
+                    <div class="footer-copy">&copy Teh Li Peh 2024</div>
+                    <div class="footer-links">
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!--Scripts-->
+        <script src="include.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
