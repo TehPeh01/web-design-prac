@@ -41,5 +41,11 @@ document.addEventListener("DOMContentLoaded", () => {
             filterItems(category);
         });
     });
+
+    const cards = document.querySelectorAll('.column');
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            card.classList.toggle('flipped'); // Toggle the flipped class on click
+        });
+    });
 });
-  
